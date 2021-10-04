@@ -1,0 +1,33 @@
+[
+    {
+        "id":1,"image":"https://stoic-jennings-f0318d.netlify.app/Images/chem-tech.jpg","Technology":"Chemical","fee":1000,"seat":120
+    },
+    {
+        "id":2,"image":"https://stoic-jennings-f0318d.netlify.app/Images/civil-tech.jpg","Technology":"Civil","fee":1400,"seat":150
+    },
+    {
+        "id":3,
+        "image":"https://stoic-jennings-f0318d.netlify.app/Images/computer-tech.jpg",
+        "Technology":"Computer",
+        "fee":2000,
+        "seat":180
+    },
+    {
+        "id":4,"image":"https://stoic-jennings-f0318d.netlify.app/Images/electronics-tech.jpg","Technology":"Electronics","fee":3500,"seat":110
+    },
+    {
+        "id":5,"image":"https://stoic-jennings-f0318d.netlify.app/Images/electrical-tech.jpg","Technology":"Electrical","fee":2500,"seat":190
+    },
+    {
+        "id":6,"image":"https://stoic-jennings-f0318d.netlify.app/Images/environment-tech.jpg","Technology":"Environment","fee":6000,"seat":300
+    },
+    {
+        "id":7,"image":"https://stoic-jennings-f0318d.netlify.app/Images/food-tech.jpg","Technology":"Food","fee":10000,"seat":400
+    },
+    {
+        "id":8,"image":"https://stoic-jennings-f0318d.netlify.app/Images/mechnical-tech.jpg","Technology":"Mechanical","fee":4000,"seat":450
+    },
+    {
+        "id":9,"image":"https://stoic-jennings-f0318d.netlify.app/Images/power-tech.jpg","Technology":"Power","fee":9000,"seat":550
+    }
+]

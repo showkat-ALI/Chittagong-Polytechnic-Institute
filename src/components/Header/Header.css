@@ -1,0 +1,20 @@
+/* header-desgine */
+.top-heading{
+    font-family: 'Mitr', sans-serif;
+    color: #1F4068;
+    font-size: 4rem;
+    margin-top: 6rem;
+    
+}
+.header{
+    border:none;
+}
+.image{
+    opacity: 0.5;
+
+}
+.sub-heading{
+    color: darkslateblue;
+    font-weight: 700;
+    font-size: 2rem;
+}

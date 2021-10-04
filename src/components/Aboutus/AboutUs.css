@@ -1,0 +1,7 @@
+/* this is desgine for about us page */
+.about-us {
+  background-color: #36096d;
+  background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
+  padding: 20px;
+  color: ghostwhite;
+}

@@ -1,0 +1,12 @@
+/* Home showcase single card desgine */
+.top-showcase-container {
+  background-color: #7f5a83;
+  background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+  border: 1px solid teal;
+  border-radius: 10px;
+}
+.showcase-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+}

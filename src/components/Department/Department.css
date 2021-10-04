@@ -1,0 +1,12 @@
+/* single department desgine */
+.department-card {
+  background-color: #5f1854;
+  color: #f1bbd5;
+}
+.read-more-button {
+  background-color: #bc6ff1;
+  padding: 7px;
+  outline: none;
+  border: 1px solid #FCDAB7;
+  border-radius: 5px;
+}

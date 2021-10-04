@@ -1,0 +1,7 @@
+/* This is desgine for where all departments will be showed */
+.departments-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    background-color: #3B0944;
+}
