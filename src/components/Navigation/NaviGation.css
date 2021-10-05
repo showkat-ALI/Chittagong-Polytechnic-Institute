@@ -3,6 +3,9 @@
   margin: 0 20px 0 20px;
   padding: 5px;
   outline: none;
-  border: none;
+  color: linen;
+  border-radius: 2px;
+  background-color: rebeccapurple;
+  border: 1px solid red;
   text-decoration: none;
 }

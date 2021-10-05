@@ -1,6 +1,7 @@
 import React from "react";
 import { Card } from "react-bootstrap";
 import ShowCase from "../ShowCaseDepartments/ShowCase";
+import ContactUs from "../ContactUs/ContactUs";
 import "./Header.css";
 import cpi from "../../images/to-cpi.jpg";
 // header builder
@@ -8,7 +9,7 @@ import cpi from "../../images/to-cpi.jpg";
 const Header = () => {
   return (
     <>
-      <Card className=" text-white header container my-5">
+      <Card className=" text-white header container my-5 ">
         <Card.Img className="image" src={cpi} alt="Card image" />
         <Card.ImgOverlay>
           <Card.Title className="text-center top-heading ">
@@ -22,6 +23,8 @@ const Header = () => {
       </Card>
       <main>
         <ShowCase></ShowCase>
+        <h1 className="text-center text-success">Contact Us</h1>
+        <ContactUs></ContactUs>
       </main>
     </>
   );

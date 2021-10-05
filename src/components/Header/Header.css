@@ -1,20 +1,30 @@
 /* header-desgine */
-.top-heading{
-    font-family: 'Mitr', sans-serif;
-    color: #1F4068;
-    font-size: 4rem;
-    margin-top: 6rem;
-    
+.top-heading {
+  font-family: "Mitr", sans-serif;
+  color: #1f4068;
+  font-size: 4rem;
+  margin-top: 6rem;
 }
-.header{
-    border:none;
+.header {
+  border: none;
 }
-.image{
-    opacity: 0.5;
-
+.image {
+  opacity: 0.5;
 }
-.sub-heading{
-    color: darkslateblue;
-    font-weight: 700;
+.sub-heading {
+  color: darkslateblue;
+  font-weight: 700;
+  font-size: 2rem;
+}
+@media only screen and (max-width: 700px) {
+  .header {
+    width: 100%;
+  }
+  .top-heading {
     font-size: 2rem;
+    margin-top: 0rem;
+  }
+  .sub-heading {
+    font-size: 1.5rem;
+  }
 }

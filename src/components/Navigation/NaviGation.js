@@ -21,6 +21,7 @@ const NaviGation = () => {
             navbarScroll
           >
             <NavLink className="nav-item" activeStyle={activeStyle} to="/home">
+              <i class="fas fa-home"></i>
               Home
             </NavLink>
             <NavLink
@@ -28,9 +29,11 @@ const NaviGation = () => {
               activeStyle={activeStyle}
               to="/departments"
             >
+              <i class="fas fa-book-open"></i>
               Departments
             </NavLink>
             <NavLink className="nav-item" activeStyle={activeStyle} to="/about">
+              <i class="fas fa-university"></i>
               About
             </NavLink>
             <NavLink
@@ -38,7 +41,16 @@ const NaviGation = () => {
               activeStyle={activeStyle}
               to="/coCuriculam"
             >
+              <i class="fas fa-praying-hands"></i>
               Co-Curriculams{" "}
+            </NavLink>
+            <NavLink
+              className="nav-item"
+              activeStyle={activeStyle}
+              to="/contactus"
+            >
+              <i class="fas fa-file-contract"></i>
+              Contact Us
             </NavLink>
           </Nav>
         </Navbar.Collapse>

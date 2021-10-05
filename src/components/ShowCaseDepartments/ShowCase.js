@@ -15,9 +15,9 @@ const ShowCase = () => {
       <div className="text-center text-light my-2">
         <h1>Choose your favourite course to start a journey with us.</h1>
         <h2>
-          Explore Your Engineering Career with us so ,What are you waiting for
+          Explore Your Engineering Career with us so ,What are you waiting for.
         </h2>
-        <h3 className="text-center">Departments</h3>
+        <h3 className="text-center">Departments:</h3>
       </div>
       <div className="showcase-container">
         {showcase.slice(0, 4).map((department) => (

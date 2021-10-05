@@ -10,6 +10,7 @@ import Footer from "./components/Footer/Footer";
 import PageNotFonund from "./components/PageNotFound/PageNotFonund";
 import Aboutus from "./components/Aboutus/Aboutus";
 import CoCurriCulams from "./components/CoCurriCulams/CoCurriCulams";
+import ContactUs from "./components/ContactUs/ContactUs";
 
 function App() {
   return (
@@ -32,6 +33,9 @@ function App() {
           </Route>
           <Route path="/coCuriculam">
             <CoCurriCulams></CoCurriCulams>
+          </Route>
+          <Route path="/contactus">
+            <ContactUs></ContactUs>
           </Route>
           <Route path="*">
             <PageNotFonund></PageNotFonund>
